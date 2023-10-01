@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&display=swap');
+
+:root {
+    --font-main: 'Inter Tight', sans-serif;
+}
+body {
+            background-color: #000;
+            color: #ccc;
+            font-family: var(--font-main);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        
+        .image-with-text img {
+            max-width: 100%;
+            height: auto;
+            border: 10px solid #333; 
+            border-radius: 3%;
+            display: block; 
+            margin: 0 auto; 
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #333;
+            border: none;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+        }
