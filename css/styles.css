@@ -51,7 +51,98 @@ body {
         .button:hover {
             background-color: #555;
         }
+section.services .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+section.services .content .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1500px;
+}
+
+section.services .content .boxes .box {
+    display: flex;
+    flex-direction: column;
+    background-color: #101011;
+    max-width: 500px;
+    height: auto;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 15px 10px;
+}
+
+section.services .content .boxes .box i {
+    font-size: 90px;
+    margin-bottom: 10px;
+    color: #202022;
+}
+
+section.services .content .boxes .box span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 7px;
+}
+
+section.services .content .boxes .box p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+section.services .content .boxes .box ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: start;
+    text-align: left;
+    margin: 30px 0 20px 20px;
+}
+
+section.services .content .boxes .box ul li {
+    list-style-type: none;
+    color: #ccc;
+}
+
+section.services .content .boxes .box ul li::before {
+    content: "\2022";
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+section.services .content .boxes .box a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #202022;
+    color: #fffffe;
+    border-radius: 4px;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.2s all;
+    height: 35px;
+    width: auto;
+}
+
+section.services .content .boxes .box a:hover {
+    transition: 0.2s all;
+    background-color: #0077ff;
+}
         .footer {
             text-align: center;
             margin-top: 50px;
