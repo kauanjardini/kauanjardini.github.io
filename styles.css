@@ -1,0 +1,47 @@
+body {
+    background-color: #000000; /* Fundo preto */
+    color: #00FFFF; /* Texto azul neon */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 10px #00FFFF; /* Efeito neon */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9); /* Container semi-transparente */
+    border: 1px solid #00FFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00FFFF; /* Brilho neon */
+}
+
+h1, h2, h3 {
+    color: #00FFFF;
+    text-shadow: 0 0 15px #00FFFF;
+}
+
+a {
+    color: #00FFFF;
+    text-decoration: none;
+    text-shadow: 0 0 10px #00FFFF;
+}
+
+a:hover {
+    text-shadow: 0 0 20px #00FFFF;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
