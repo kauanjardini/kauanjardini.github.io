@@ -4,7 +4,8 @@
   --cor-principal: #00bcd4;
   --cor-secundaria: #1a1a1a;
   --cor-texto: #f5f5f5;
-  --cor-destaque: #ff4081;
+  --cor-destaque: #000000;
+  --cor-button-clicked: #ff0000;
   --cor-borda: rgba(255,255,255,0.1);
   --fonte-principal: "Poppins", "Inter", sans-serif;
 }
@@ -96,7 +97,7 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
-  background: var(--cor-destaque);
+  background: var(--cor-button-clicked);
   transform: scale(1.05);
 }
 
